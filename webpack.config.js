@@ -120,14 +120,14 @@ module.exports = {
 
   // 项目输出配置
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'public'),
     chunkFilename: '[name].[chunkhash].js',
     filename: '[name].[chunkhash].js',
     publicPath,
   },
   plugins: [
     // 插件配置
-    new CleanWebpackPlugin(['dist']), // 清空编译输出文件夹
+    new CleanWebpackPlugin(['public']), // 清空编译输出文件夹
     new CopyWebpackPlugin([
       {
         from: path.resolve(`${__dirname}/static`), // 打包的静态资源目录地址
@@ -269,7 +269,7 @@ EOF
 
   resolve: {
     alias: {
-      // 'flv.js': require.resolve('./node_modules/flv.js/dist/flv.js'),
+      'flv.js': require.resolve('./node_modules/flv.js/dist/flv.js'),
     },
   },
 };
