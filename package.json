@@ -52,7 +52,7 @@
     "history": "^4.9.0",
     "icon-font-loader": "^2.0.3",
     "jwt-decode": "^2.2.0",
-    "lodash": "^4.2",
+    "lodash": "^4.17",
     "moment": "^2.24.0",
     "prettier": "^1.18.2",
     "prop-types": "^15.7.2",
