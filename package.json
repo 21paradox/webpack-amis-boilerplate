@@ -53,7 +53,7 @@
     "icon-font-loader": "^2.0.3",
     "jwt-decode": "^2.2.0",
     "lodash": "^4.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "prettier": "^1.18.2",
     "prop-types": "^15.7.2",
     "px2rem-loader": "^0.1.9",
